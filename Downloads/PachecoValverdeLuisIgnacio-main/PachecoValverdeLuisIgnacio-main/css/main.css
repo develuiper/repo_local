@@ -1,0 +1,62 @@
+.mifoto{
+    width:20rem !important; 
+    height:30rem !important;
+    border-radius:10%; 
+  }
+.centrarForm{
+  display:flex; 
+  text-align:center; 
+  flex-direction:column; 
+  justify-content:center; 
+}
+.anchoTextArea{
+  width:95vw; 
+  margin-left:2.5vw; 
+}
+
+.centrar{
+  display:flex;
+  flex-direction:column;  
+  text-align:center; 
+  justify-content:center;
+  align-items:center; 
+}
+.quitarPunto{
+ list-style:none;
+}
+.ajustarCar{
+  max-width:50vw; 
+}
+.imagenCurr{
+   border-radius:20%; 
+}
+@media(max-width:768px){
+  .imagenCurr{
+     width:50vw;
+     height:50vh; 
+  }
+  .imagenCarr{
+    width:80vw; 
+    height:60vh; 
+  }
+}
+@media(max-width:1200px){
+  .imagenCurr{
+     width:30vw;
+     height:40vh; 
+  }
+  .imagenCarr{
+    width:40vw; 
+    height:55vh; 
+  }
+}
+@media(min-width:1200px){
+  .imagenCurr{
+     width:15vw;
+     height:15vh; 
+  }
+  .imagenCarr{
+    width:25vw; 
+    height:70vh; 
+  }
+}
